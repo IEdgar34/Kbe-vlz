@@ -3334,7 +3334,8 @@ section {
     }
 }
 .reviews__inner .tabs {
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 40px;
 }
 .reviews__inner .tab_content {
     margin-top: 55px;
@@ -4036,6 +4037,7 @@ section {
 .info {
     margin-top: 0;
     position: relative;
+    margin-top: 60px;
 }
 .info__bg {
     width: 100%;
@@ -6817,7 +6819,9 @@ button.swiper-pagination-bullet {
     width: 100%;
     height: 100%;
 }
-
+.dispaly-n {
+    display: none;
+}
 /* End */
 /* /local/templates/kbe/assets/css/style.css?1712859789239073 */
 /* /local/templates/kbe/assets/lib/fancybox/jquery.fancybox.min.css?171285978814065 */
